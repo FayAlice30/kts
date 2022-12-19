@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #444;
+  margin: 0;
+}
+
+header {
+  background-color: #0066cc;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #003399;
+}
+
+main {
+  margin: 20px;
+}
+
+h2 {
+  color: #0066cc;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+form {
+  margin: 20px 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"], input[type="date"], input[type="time"], input[type="number"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #0066cc;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+  background-color: #003399;
+}
+
+/* Placeholders for images */
+.logo {
+  background-image: url('logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 50px;
+}
+
+.hero-image {
+  background-image: url('hero-image.jpg');
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
+
+/* Light blue accents */
+.light-blue {
+  color: #66ccff;
+}
+
+.light-blue-bg {
+  background-color: #66ccff;
+}
